@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruchika.tictactoe2.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/first"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/second"
+        android:layout_width="117dp"
+        android:layout_height="351dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textAlignment="center"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textSize="70sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/second"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/first"
+        app:layout_constraintEnd_toStartOf="@+id/third"
+        android:layout_width="117dp"
+        android:layout_height="351dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textSize="70sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/third"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/second"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="117dp"
+        android:layout_height="351dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textSize="70sp" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
